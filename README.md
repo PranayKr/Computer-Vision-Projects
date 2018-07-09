@@ -4,7 +4,7 @@ For implementation of the given Image Captioning Neural Network problem statemen
 
 The Encoder CNN (pretrained ResNet-50 ConvNet) is trained on open source COCO Dataset of Images of around 90 different Objects
 
-The Decoder RNN is trained on the captions associated wuth the images present as part of the COCO Datset
+The Decoder RNN is trained on the captions associated with the images present as part of the COCO Datset
 
 a)Encoder CNN Architecture : I used pretrained ResNet-50 CNN model as feature extractor from input images by using its pretrained weights and removing the last fully connected Neural Net Layer from the ResNet-50 Stack which is basically a softmax classifier for classifyung a given image So now the pretrained ResNet=50 Conv Neural Net is simply encoding the contents of an image into a smaller feature vector and hence called encoder part of the Seq2Seq Model being built Before providing this feature vector output of the ConvNet to the Decoder RNN it needs to be processed . For that I added an additional Linear Layer on top of the pretrained ConvNet called the embedding layer with number of imput neurons (input size) equal to the number of features extracted by the filter kernels used in the ResNet-50 ConvNet and Output size as the Embedding_Size parameter which has been set as 256 Also I applied Batch-Normalization over the Untrained Embedding Layer before sending it as input to Decoder RNN
 

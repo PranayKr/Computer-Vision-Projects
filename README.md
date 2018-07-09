@@ -12,7 +12,7 @@ b)Decoder RNN Architecture : The first layer is an embedding layer having number
 
 Finally the Output of the Decoder RNN is calculated by passing the output of the LSTM layer as input to a fully connected linear layer
 
-I selected the values of embed_sixe and hidden_size parameter by inferences drawn from going through the researcg papaers : 1) Show and Tell: A Neural Image Caption Generator (https://arxiv.org/pdf/1411.4555.pdf) 2) Show, Attend and Tell: Neural Image Caption Generation with Visual Attention (https://arxiv.org/pdf/1502.03044.pdf)
+I selected the values of embed_size and hidden_size parameter by inferences drawn from going through the researcg papaers : 1) Show and Tell: A Neural Image Caption Generator (https://arxiv.org/pdf/1411.4555.pdf) 2) Show, Attend and Tell: Neural Image Caption Generation with Visual Attention (https://arxiv.org/pdf/1502.03044.pdf)
 
 I inferred that to prevent overfitting and getting more accurate results Deeper the Neural Net Model the better/more accurate would be the results Hence I chose Emded_size as 256 and Hidden_Size as 512 number of LSTM Cells Layes as 3 and Dropout value of LSTM layers as 0.4 BatchNormalization was also integrated in the Encoder CNN Model for getting better results and boosting the performance of the SEQ2SEQ model being built
 

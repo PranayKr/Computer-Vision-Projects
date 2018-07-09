@@ -1,4 +1,4 @@
-# An Automatic Image Captioning System implemented using Sequence to Sequence Model (having Encoder CNN (Convolutional Neural Net) and Decoder RNN (Recurrent Neural Networks)) to automatically generate captions from images.
+# An Automatic Image Captioning System implemented using Sequence to Sequence Model (having Encoder CNN (Convolutional Neural Network) and Decoder RNN (Recurrent Neural Network)) to automatically generate captions from images.
 
 For implementation of the given Image Captioning Neural Network problem statement: 1) a SEQ2SEQ model having an a)Encoder CNN and b)Decoder RNN was used
 

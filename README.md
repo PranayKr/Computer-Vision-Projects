@@ -19,3 +19,5 @@ I inferred that to prevent overfitting and getting more accurate results Deeper 
 I set the Vocab_threshold value to 5
 
 I set the number of epochs to 4 for better more accurate results on completion of training
+
+# RESULTS SHOWCASE

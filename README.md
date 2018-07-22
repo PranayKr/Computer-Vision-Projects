@@ -19,3 +19,11 @@ An example of a 2D robot world with landmarks (purple x's) and the robot (a red 
 # FINAL RESULTS SHOWCASE:
 (NOTE: the changing position of the Bot (Red Circle) as it moves and gathers sensor data over multiple time steps)
 
+![step_1](https://user-images.githubusercontent.com/25223180/43046145-f3778bae-8de2-11e8-9f84-2df0277b915f.PNG)
+![slam_1](https://user-images.githubusercontent.com/25223180/43046150-f8324936-8de2-11e8-9e06-fe1db1e68834.png)
+
+![step_2](https://user-images.githubusercontent.com/25223180/43046155-017dba0c-8de3-11e8-9eda-e6232f8a309b.PNG)
+![slam_2](https://user-images.githubusercontent.com/25223180/43046157-044f1c94-8de3-11e8-9fbb-51af5d581e0c.png)
+
+
+

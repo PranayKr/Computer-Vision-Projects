@@ -16,6 +16,6 @@ A World grid with landmarks in it is generated throuh code and then data is gene
 
 # An example of a 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using only sensor and motion data collected by that robot over multiple time steps
 
-
+![robot_world](https://user-images.githubusercontent.com/25223180/43045922-e90d5eae-8dde-11e8-951b-3fa42655644f.png)
 
 
